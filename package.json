@@ -1,0 +1,39 @@
+{
+  "name": "desktop-calculator",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "npx electronmon .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "electron": "^30.1.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.calculator.app",
+    "productName": "Calculator - Code With Mahdi",
+    "directories": {
+      "output": "build"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    },
+    "win": {
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "icon": "assets/icon.icns"
+    },
+    "linux": {
+      "icon": "assets/icon.png"
+    }
+  }
+}

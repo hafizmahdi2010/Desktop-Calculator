@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>Document</title> -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <div class="calculatorCon w-full h-screen bg-zinc-900 text-white p-[10px]">
+    <div class="calculator">
+      <div class="flex items-center gap-[5px] h-[100px] w-full bg-zinc-900">
+        <input type="text" disabled value="0"
+          class="result w-full h-full bg-transparent p-[10px] text-right text-[50px] font-bold">
+      </div>
+
+      <div class="flex items-center gap-[5px] w-full h-[80px] bg-rde-300">
+        <button class="calBtns w-full h-full bg-[#4CAF50] p-[5px] rounded-[10px] text-[25px] curosr-poinetr">AC</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">+/-</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">%</button>
+        <button
+          class="mathBtn calBtns w-full h-full p-[5px] text-[25px] rounded-[10px] bg-[#E79124] curosr-poinetr backBtn"><i class="ri-delete-back-2-line"></i></button>
+      </div>
+      <div class="flex mt-2 items-center gap-[5px] w-full h-[80px] bg-rde-300">
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">7</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">8</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">9</button>
+        <button
+          class="mathBtn calBtns w-full h-full p-[5px] text-[25px] rounded-[10px] bg-[#E79124] curosr-poinetr">*</button>
+      </div>
+      <div class="flex mt-2 items-center gap-[5px] w-full h-[80px] bg-rde-300">
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">4</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">5</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">6</button>
+        <button
+          class="mathBtn calBtns w-full h-full p-[5px] text-[25px] rounded-[10px] bg-[#E79124] curosr-poinetr">-</button>
+      </div>
+      <div class="flex mt-2 items-center gap-[5px] w-full h-[80px] bg-rde-300">
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">1</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">2</button>
+        <button class="calBtns w-full h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">3</button>
+        <button
+          class="mathBtn calBtns w-full h-full p-[5px] text-[25px] rounded-[10px] bg-[#E79124] curosr-poinetr">+</button>
+      </div>
+      <div class="flex mt-2 items-center gap-[5px] w-full h-[80px] bg-rde-300">
+        <button class="calBtns w-[50%] h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">0</button>
+        <button class="calBtns w-[25%] h-full bg-zinc-800 p-[5px] rounded-[10px] text-[25px] curosr-poinetr">.</button>
+        <button
+          class="mathBtn calBtns w-[25%] h-full p-[5px] text-[25px] rounded-[10px] bg-[#2196F3] curosr-poinetr">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
